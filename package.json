@@ -22,6 +22,7 @@
   },
   "keywords": [
     "json"
+    "summarize"
   ],
   "dependencies": {
     "each-async": "~0.1.0"
