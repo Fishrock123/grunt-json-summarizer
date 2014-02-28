@@ -21,7 +21,7 @@
     "url": "https://github.com/fishrock123/grunt-json-summarizer/issues"
   },
   "keywords": [
-    "json"
+    "json",
     "summarize"
   ],
   "dependencies": {
