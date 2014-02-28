@@ -19,7 +19,7 @@ var assert = require('assert')
   ]
 
 describe('Ensuring output JSON test file is valid.', function() {
-  it('test/tmp/summary.json should match premade sample', function() {
+  it('test/tmp/summary.json should match pre-made sample', function() {
     fs.readFile('test/tmp/summary.json', 'utf-8', function(err, data) {
       if (err) throw new Error(err)
 
