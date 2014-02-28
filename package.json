@@ -34,5 +34,8 @@
   },
   "files": [
     "tasks"
-  ]
+  ],
+  "scripts": {
+    "test": "grunt"
+  }
 }
