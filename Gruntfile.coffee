@@ -14,6 +14,7 @@ module.exports = (grunt) ->
             'moar'
           ]
           pretty_spaces: 2
+          add_filename: 'original_filename'
 
         files:
           'test/tmp/summary.json': ['test/part1.json', 'test/part2.json']

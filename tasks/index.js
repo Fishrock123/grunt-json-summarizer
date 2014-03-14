@@ -19,7 +19,17 @@ function summarizer(grunt) {
         } catch (ex) {
           console.error("ERROR: '" + el.src[i] + "' is not a valid JSON file!")
         }
-        summary.push(summarizer.propertyFinder(json, options))
+        json = summarizer.propertyFinder(json, options)
+
+        if (options.add_filename) {
+          var path = el.src[i]
+          if (~path.lastIndexOf('/'))
+            path = path.slice(path.lastIndexOf('/') + 1, path.length)
+
+          json[options.add_filename] = path.slice(0, path.length - 5)
+        }
+
+        summary.push(json)
       }
 
       grunt.file.write(el.dest, JSON.stringify(summary, undefined, options.pretty_spaces))

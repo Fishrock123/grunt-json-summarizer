@@ -22,6 +22,10 @@ module.exports = function(grunt) {
             'property_to_summarize'
           ],
           pretty_spaces: 2,
+
+          // if specified, summarized json will have an associated
+          // property with the filename of the original json
+          add_filename: 'json_filename'
         },
 
         files: {

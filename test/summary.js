@@ -6,7 +6,8 @@ var assert = require('assert')
       moar: {
         alergic: true
       },
-      likes_cats: false
+      likes_cats: false,
+      original_filename: 'part2'
     },
     {
       moar: {
@@ -14,7 +15,8 @@ var assert = require('assert')
         dogs: 0,
         hedgehog: 2
       },
-      likes_cats: true
+      likes_cats: true,
+      original_filename: 'part1'
     }
   ]
 
