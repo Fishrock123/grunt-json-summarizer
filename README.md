@@ -1,4 +1,4 @@
-# grunt-json-summarizer [![Build Status](https://travis-ci.org/Fishrock123/grunt-json-summarizer.png)](https://travis-ci.org/Fishrock123/grunt-json-summarizer) [![NPM version](https://badge.fury.io/js/grunt-json-summarizer.png)](http://badge.fury.io/js/grunt-json-summarizer)
+# grunt-json-summarizer [![Build Status](https://travis-ci.org/Fishrock123/grunt-json-summarizer.svg)](https://travis-ci.org/Fishrock123/grunt-json-summarizer) [![NPM version](https://badge.fury.io/js/grunt-json-summarizer.svg)](http://badge.fury.io/js/grunt-json-summarizer)
 
 A grunt task that summarizes specific properties of JSON files into JSON lists.
 
